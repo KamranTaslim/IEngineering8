@@ -1,0 +1,31 @@
+.carousel {
+  border-radius: 15px;
+  padding-right: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+  width: 99%;
+  height: 80vh;
+  max-width: 89%;
+  margin: 0 auto;
+}
+.hero-title-img {
+  position: relative;
+}
+.hero-title-img h2 {
+  position: absolute;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  top: 40%;
+  text-align: center;
+  left: 10%;
+  color: white;
+  font-size: 3rem;
+  background-color: transparent;
+  z-index: 1;
+  width: 80%;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+.hero-title-img img {
+  width: 100%;
+
+  opacity: 0.8;
+}
